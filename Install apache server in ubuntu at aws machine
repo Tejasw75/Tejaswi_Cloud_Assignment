@@ -1,0 +1,60 @@
+Here are the steps on how to install Apache2 server in Ubuntu Linux:
+
+*Step 1: Update your system packages.*
+
+
+sudo apt update
+
+
+*Step 2: Install Apache2.*
+
+
+sudo apt install apache2
+
+
+*Step 3: Check the status of Apache2.*
+
+
+sudo systemctl status apache2
+
+
+*Step 4: Enable Apache2 to start at boot.*
+
+
+sudo systemctl enable apache2
+
+
+*Step 5: Open your web browser and go to `http://localhost`.*
+
+You should see the default Apache2 welcome page.
+
+*Detailed steps:*
+
+1. Open a terminal window.
+2. Run the following command to update your system packages:
+
+
+sudo apt update
+
+
+3. Run the following command to install Apache2:
+
+
+sudo apt install apache2
+
+
+4. Check the status of Apache2 by running the following command:
+
+
+sudo systemctl status apache2
+
+
+5. Enable Apache2 to start at boot by running the following command:
+
+
+sudo systemctl enable apache2
+
+
+6. Open your web browser and go to `http://localhost`.
+
+You should see the default Apache2 welcome page.
